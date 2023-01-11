@@ -1,4 +1,2 @@
 # Odin_recipes
-Building basic webpage using HTML and CSS.
-
-Self reflection
+A simple webpage made during the foundations course on the Odin Project using HTML and CSS. Clicking on a recipe link will show the instructions and ingredients required to make the dish.

@@ -1,0 +1,75 @@
+.header {
+
+    background: #dac3b3;
+    font-size: 25px;
+    font-family: Ubuntu, Oxygen;
+    padding-left: 83px;
+    padding-right: 83px;
+   position: relative;
+    height: 79px;
+
+  }
+
+.header .textodinrecipes{
+  display:inline-block;
+
+  color: #000;
+  margin:0px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  padding-right: 672px;
+ height: 52px;
+ line-height: 52px;
+ position: absolute;
+
+  left: 8%;
+
+
+
+}
+
+.header .textrecipes{
+  display:inline-block;
+
+  color: #000;
+  margin:0px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  padding-right: 44px;
+ height: 52px;
+ line-height: 52px;
+ position: absolute;
+
+ left: 70%;
+
+}
+
+.textabout{
+  display:inline-block;
+  color: #696969;
+  margin:0px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  padding-right: 44px;
+ height: 52px;
+ line-height: 52px;
+ position: absolute;
+ left: 80%;
+}
+
+.textblog{
+  display:inline-block;
+  color: #fff;
+  margin:0px;
+  padding-top: 13px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+  padding-right: 44px;
+ height: 52px;
+ line-height: 52px;
+ position: absolute;
+ left: 90%;
+}

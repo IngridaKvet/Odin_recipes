@@ -5,15 +5,17 @@
     font-family: Ubuntu, Oxygen;
     padding-left: 83px;
     padding-right: 83px;
-   position: relative;
+    position: relative;
     height: 79px;
 
   }
 
-.header .textodinrecipes{
-  display:inline-block;
 
-  color: #000;
+.header .textodinrecipes,
+.header .textrecipes,
+.textabout,
+.textblog{
+  display:inline-block;
   margin:0px;
   padding-top: 13px;
   padding-bottom: 14px;
@@ -22,54 +24,30 @@
  height: 52px;
  line-height: 52px;
  position: absolute;
-
-  left: 8%;
-
-
+text-decoration: none;
 
 }
 
-.header .textrecipes{
-  display:inline-block;
 
+.textodinrecipes{
   color: #000;
-  margin:0px;
-  padding-top: 13px;
-  padding-bottom: 14px;
-  padding-left: 22px;
-  padding-right: 44px;
- height: 52px;
- line-height: 52px;
- position: absolute;
+  left: 8%;
+}
 
+.textrecipes{
+ color: #000;
+ position:absolute;
  left: 70%;
-
 }
 
 .textabout{
-  display:inline-block;
   color: #696969;
-  margin:0px;
-  padding-top: 13px;
-  padding-bottom: 14px;
-  padding-left: 22px;
-  padding-right: 44px;
- height: 52px;
- line-height: 52px;
- position: absolute;
- left: 80%;
+  left: 80%;
 }
 
 .textblog{
-  display:inline-block;
   color: #fff;
-  margin:0px;
-  padding-top: 13px;
-  padding-bottom: 14px;
-  padding-left: 22px;
-  padding-right: 44px;
- height: 52px;
- line-height: 52px;
- position: absolute;
- left: 90%;
+  left: 90%;
 }
+
+

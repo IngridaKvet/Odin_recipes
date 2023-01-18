@@ -20,18 +20,18 @@
   padding-top: 13px;
   padding-bottom: 14px;
   padding-left: 22px;
-  padding-right: 672px;
- height: 52px;
- line-height: 52px;
- position: absolute;
-text-decoration: none;
-
+  padding-right: 40px;
+  height: 52px;
+  line-height: 52px;
+  position: absolute;
+  text-decoration: none;
 }
-
 
 .textodinrecipes{
   color: #000;
   left: 8%;
+  font-size: 25px;
+    font-family: Ubuntu, Oxygen;
 }
 
 .textrecipes{
@@ -50,4 +50,21 @@ text-decoration: none;
   left: 90%;
 }
 
+/* text formating */
+.textcontainer{
+  display:block;
+  
+  
+  /*position:absolute;
+  left: 12%;*/
+  font-size: 20px;
+  font-family: Ubuntu, Oxygen;
+  padding-left: 174px;
+  width: 550px;
+}
+
+.textheadings{
+  font-size: 25px;
+  text-align: center;
+}
 

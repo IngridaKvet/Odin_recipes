@@ -36,13 +36,69 @@ h1,a {
 
 /*Content style*/
 /*Text on the left*/
-.textcontainer{
+.contentcontainer{
+  display: flex;
+  margin: 0 166px;
+  
 
+}
+.textcontainer{
+flex-direction: column;
+margin: 0 68px;
+font-size: 20px;
+font-family: Ubuntu, Oxygen;
+}
+
+p {
+  margin: 10px 0;
+}
+
+h{
+  margin-top: 20px;
 }
 
 
-/*Photos on the right*/
+#firstbutton,
+#secondbutton{
+border-radius: 20px;
+width: 175px;
+height: 39px; 
+border-style: solid;
+font-size: 20px;
+font-family: Ubuntu, Oxygen;
 
+}
+#firstbutton{
+  border-color: #20232a;
+  background: #20232a;
+  color: #fff;
+}
+
+#secondbutton{
+  border-color: #dac3b3;
+  background: #dac3b3;
+  color: #000;
+}
+
+a,
+h2{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+/*Photos on the right*/
+.textcontainer,
+.photoscontainer{
+  display: flex;
+  flex: 1 1 0;
+}
+
+.photoscontainer{
+
+}
 
 
 

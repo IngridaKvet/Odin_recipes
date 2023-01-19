@@ -1,62 +1,65 @@
+/*Header style*/
 .header {
-
     background: #dac3b3;
-    font-size: 25px;
-    font-family: Ubuntu, Oxygen;
-    padding-left: 83px;
-    padding-right: 83px;
-    position: relative;
-    height: 79px;
+    display: flex;
+}
 
-  }
+.links,
+.logo{
+  display: flex;
+  align-items: center;
+  padding: 0px 166px;
+  gap: 16px;
+}
 
+.links{
+  margin-left: auto;
+}
 
-.header .textodinrecipes,
-.header .textrecipes,
-.textabout,
-.textblog{
-  display:inline-block;
-  margin:0px;
-  padding-top: 13px;
-  padding-bottom: 14px;
-  padding-left: 22px;
-  padding-right: 40px;
-  height: 52px;
-  line-height: 52px;
-  position: absolute;
+h1,a {
+  font-size: 25px;
+  font-family: Ubuntu, Oxygen;
   text-decoration: none;
 }
 
-.textodinrecipes{
-  color: #000;
-  left: 8%;
-  font-size: 25px;
-    font-family: Ubuntu, Oxygen;
-}
-
 .textrecipes{
- color: #000;
- position:absolute;
- left: 70%;
+  color: black;
 }
 
 .textabout{
-  color: #696969;
-  left: 80%;
+ color: #696969;
 }
 
 .textblog{
-  color: #fff;
-  left: 90%;
+  color: white;
 }
 
-/* text formating */
+/*Content style*/
+/*Text on the left*/
+.textcontainer{
+
+}
+
+
+/*Photos on the right*/
+
+
+
+
+
+
+
+
+/* text formating */ 
+/*
 .textcontainer{
   display:inline-block;
   
   
   /*position:absolute;
   left: 12%;*/
+
+  /*
   font-size: 20px;
   font-family: Ubuntu, Oxygen;
   padding-left: 300px;
@@ -96,6 +99,7 @@ font-family: Ubuntu, Oxygen;
 }
 
 /*section*/
+/*
 .section{
   display:inline-block;
   font-size: 20px;

@@ -39,6 +39,8 @@ h1,a {
 .contentcontainer{
   display: flex;
   margin: 0 166px;
+  margin-top: 30px;
+  gap: 20px;
   
 
 }
@@ -50,19 +52,38 @@ font-size: 20px;
 font-family: Ubuntu, Oxygen;
 }
 
+.photocontainer{
+  margin: 10px 68px;
+}
+
+.description{
+  margin-right:68px;
+  font-size: 20px;
+font-family: Ubuntu, Oxygen;
+}
+
 .textcontainer{
   min-width: 600px;
 }
 
 
 p {
+  font-family: Ubuntu, Oxygen;
+  font-size: 20px;
   margin: 10px 0;
 }
 
-h{
+h2{
+  font-family: Ubuntu, Oxygen;
+  font-size: 20px;
   margin-top: 20px;
+  font-size: 25px;
 }
 
+h3{
+  font-size: 20px;
+  margin: 0;
+}
 
 #firstbutton,
 #secondbutton{
@@ -86,11 +107,12 @@ font-family: Ubuntu, Oxygen;
   color: #000;
 }
 
-a,
+a,h1,
 h2{
   display: flex;
   justify-content: center;
 }
+
 
 
 

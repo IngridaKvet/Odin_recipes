@@ -2,6 +2,8 @@
 .header {
     background: #dac3b3;
     display: flex;
+    font-family: Ubuntu, Oxygen;
+    text-decoration: none;
 }
 
 .links,
@@ -41,6 +43,8 @@ h1,a {
   margin: 0 166px;
   margin-top: 30px;
   gap: 20px;
+  font-family: Ubuntu, Oxygen;
+  text-decoration: none;
   
 
 }
@@ -64,6 +68,8 @@ font-family: Ubuntu, Oxygen;
 
 .textcontainer{
   min-width: 600px;
+  font-family: Ubuntu, Oxygen;
+  text-decoration: none;
 }
 
 

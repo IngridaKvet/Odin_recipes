@@ -1,11 +1,11 @@
 /*Header style*/
-
+/*
 @font-face {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
-}
+  src: local('Ubuntu'), url(hhttp://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin) format('woff');
+}*/
 
 body {
   font-family: Ubuntu;

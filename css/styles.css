@@ -6,8 +6,12 @@ body {
 .header {
     background: #dac3b3;
     display: flex;
-    font-family: Ubuntu, Oxygen;
     text-decoration: none;
+    font-size: 25px;
+}
+
+h1{
+  font-size: inherit;
 }
 
 .links,
@@ -15,16 +19,14 @@ body {
   display: flex;
   align-items: center;
   padding: 0px 166px;
-  gap: 16px;
+  gap: 25px;
 }
 
 .links{
   margin-left: auto;
 }
 
-h1,a {
-  font-size: 25px;
-  font-family: Ubuntu, Oxygen;
+a{
   text-decoration: none;
 }
 
@@ -40,8 +42,10 @@ h1,a {
   color: white;
 }
 
+/*
+
 /*Content style*/
-/*Text on the left*/
+/*Text on the left
 .contentcontainer{
   display: flex;
   margin: 0 166px;
@@ -127,8 +131,9 @@ h2{
 
 
 
-
+/*
 /*Photos on the right*/
+/*
 .textcontainer,
 .photoscontainer{
   display: flex;

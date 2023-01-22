@@ -72,20 +72,28 @@ a{
   flex: 1 1 0;
   width: 0;
   min-width: 545px;
+
   text-decoration: none;
+
 }
 
 .photoscontainer{
+  display: flex;
   flex: 1 1 0;
   width: 0;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
 h2{
   font-size: 25px;
   min-width: 373px;
+}
+
+h3{
+  font-size: 20px;
+  align-items: center;
 }
 
 #firstbutton,
